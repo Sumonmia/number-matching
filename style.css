@@ -73,6 +73,7 @@ body{
     border-radius: 2px;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 .digits{
     background-color: #180161;
@@ -85,4 +86,9 @@ body{
 }
 .clear-btn{
     background-color: #FB773C;
+}
+
+.message{
+    color: black;
+
 }

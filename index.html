@@ -6,16 +6,17 @@
     <title>Number Matching: First Assignment</title>
     <!-- CSS -->
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
 <main>
     <div class="container">
         <div class="left">
-            <button class="generatekey">
+            <button class="generatekey" id="generate-key">
                 Generate Secret Key
             </button>
-            <div class="keyfield">
+            <div class="keyfield" id="display-key">
                 ******
             </div>
         </div>
@@ -42,8 +43,12 @@
                 <button class="submit-btn common-btn">Submit</button>
                 <button class="clear-btn common-btn">Clear</button>
             </div>
+            <div class="message">
+                <p>Nothing to match yet!!</p>
+            </div>
         </div>
     </div>
-</main>    
+</main>   
+<script src="script.js"></script> 
 </body>
 </html>
