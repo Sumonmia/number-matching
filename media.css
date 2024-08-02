@@ -1,0 +1,51 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* for small screen devices */
+@media (max-width: 575.98px) {
+    .container{
+        flex-direction: column;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .generatekey {
+        margin-top: 20px;
+        width: 80%;
+    }
+    .keyfield{
+        width: 80%;
+    }
+    .right-upper {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-containers {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .right-upper {
+        gap: 10px;
+    }
+    .button-containers {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    /* .right-upper {
+        gap: 10px;
+    }
+    .button-containers {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    } */
+ }
+
