@@ -1,0 +1,5 @@
+colors:
+#180161-buttons
+#4F1787-generate key
+#EB3678-del/clear
+#016101-submit

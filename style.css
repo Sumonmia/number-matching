@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(180, 160, 160); */
+    color: white;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.vertical-line{
+    border-left: 2px solid black;
+    height: 50vh;
+}
+.left{
+    display: flex;
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.generatekey{
+    background-color: #4F1787;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 2px;
+    width: 48%;
+}
+.keyfield{
+    border: 1px solid black;
+    border-radius: 2px;
+    /* background-color: yellowgreen; */
+    padding: 10px 0;
+    width: 48%;
+    color: black;
+    text-align: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+}
+.right-upper{
+    display: flex;
+    padding: 20px 0;
+    gap: 40px;
+}
+.p-text{
+    color: black;
+}
+.digitfield{
+    padding: 10px 50px;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+}
+.button-containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.common-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+.digits{
+    background-color: #180161;
+}
+.delete-btn{
+    background-color: #EB3678;
+}
+.submit-btn{
+    background-color: #016101;
+}
+.clear-btn{
+    background-color: #FB773C;
+}
