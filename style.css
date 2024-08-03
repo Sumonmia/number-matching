@@ -57,10 +57,14 @@ body{
     color: black;
 }
 .digitfield{
-    padding: 10px 50px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    height: 20px;
+    width: 140px;
     border: 1px solid black;
     border-radius: 2px;
     color: black;
+    text-align: center;
 }
 .button-containers{
     display: grid;
@@ -89,6 +93,9 @@ body{
 }
 
 .message{
-    color: black;
+    margin-top: 20px;
+    height: 20px;
+    text-align: center;
+    color: #016101;
 
 }
